@@ -15,3 +15,8 @@ resource "aws_instance" "webserver2" {
     Name = "${var.TAG}"
   }
 }
+
+
+resources "aws_eip" "lb" {
+  vpc = true 
+  
