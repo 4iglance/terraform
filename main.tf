@@ -13,5 +13,11 @@ resource "aws_instance" "webserver2" {
   subnet_id = "${var.SUBNET}"
   tags = {
     Name = "${var.TAG}"
+    }
   }
-}
+
+resource "aws_instance" "db-server" {
+  }
+resource "aws_instance" "webserver3" {
+  }
+  
