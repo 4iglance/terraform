@@ -15,3 +15,7 @@ resource "aws_instance" "webserver2" {
     Name = "${var.TAG}"
   }
 }
+
+
+resource "aws_s3_bucket" "delta3245"{
+  }
