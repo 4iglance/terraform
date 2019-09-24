@@ -22,3 +22,6 @@ variable "REGION" {
     default = "us-east-2"
     }
 
+variable "AMI_TAG" {
+    default = date
+    }
