@@ -15,3 +15,4 @@ resource "aws_instance" "webserver2" {
     Name = "${var.TAG}"
   }
 }
+}
