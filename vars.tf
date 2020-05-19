@@ -23,5 +23,9 @@ variable "REGION" {
     }
 
 variable "AMI_TAG" {
-    default = date
+    default = "date"
     }
+
+variable "prv-sb" {
+  default = ["33.33.33.0/24", "33.33.34.0/24", "33.33.35.0/24"]
+}
